@@ -1,0 +1,150 @@
+.name{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap ;
+  padding: 20px;
+  
+  }
+ .main{
+  text-align: center;
+  color: black;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 900;
+} 
+.rub{
+ width: 350px;
+ height: 500px;
+ 
+}
+.Head h1{
+  background-color: aquamarine;
+  color: black;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+}
+
+.rub img{
+  height: 200px;
+  width: 150px;
+  position: relative;
+}
+.card img{
+   justify-content: center;
+}
+.card{
+  padding: 0%;
+  margin: 0%;
+}
+.icon{
+  justify-content: center;
+}
+
+.search-container {
+  position: relative;
+  max-width: 400px;
+}
+
+.search-input {
+  width: 80%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  border-color: #6cb2eb;
+}
+
+.logo {
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px; /* Adjust the width as needed */
+  height: auto;
+}
+.About{
+    background-color: aquamarine;
+}
+.png{
+  background-color: aquamarine;
+}
+.App {
+  text-align: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ h1{
+  margin: 0;
+ }
+ .header{
+  color: white;
+  background-color:#247ED5;
+  padding: 20px;
+  width: 100%;
+ ;
+ }
+ .form{
+  margin-top:20px;
+ }
+ .data{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+  align-items: center;
+ }
+ .form-data{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 0px 9px 0px 9px;
+  background-color: #1894f3;
+  border: 2px solid black;
+ }
+
+ .pass{
+  text-align: center;
+
+ }
+ .pass input{
+      height: 8px;
+      width: 98%;
+      top: 1px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      outline-color: #247ED5;
+   }
+ 
+ .pass label{
+    position: absolute;
+    padding-top: 20px;
+    right: 43%;
+    font-size: 18px;
+    
+ }
+ .pass span{
+  position: absolute;
+  left: 43%;
+  bottom: 60.5%;
+  padding: 10px;
+  font-weight: 1;
+  pointer-events: none;
+  transition: 0.1s;
+ }
+ .pass input:valid ~ label,
+ .pass input:focus ~ span
+ {
+     color: #247ED5;
+     transform: translateX(3px) translateY(-2px) translateZ(2px);
+     font-size: 0.95rem;
+     padding: 35.5px 0;
+     background: white;
+ }
